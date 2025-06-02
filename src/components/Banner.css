@@ -1,0 +1,22 @@
+.banner {
+  background-color: #19723e;
+  width: 100%;
+}
+
+.banner-content-holder {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    padding: 3rem 1rem;
+    min-height: 300px;
+}
+
+.banner-content {
+    max-width: 600px;
+    width: 100%;
+}
+
+.banner-content h1, p{
+    margin-bottom: 20px;
+}
