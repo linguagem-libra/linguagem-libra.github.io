@@ -11,7 +11,7 @@ export function Download() {
           <h2 className="text-2xl font-bold mb-4 text-emerald-600">Docker (Recomendado)</h2>
           <p className="text-zinc-500 mb-6">A forma mais rápida, sem precisar instalar dependências no seu sistema.</p>
           <div className="bg-zinc-900 p-4 rounded-xl font-mono text-sm text-emerald-400 mb-4">
-            docker run -it --rm libra
+            docker run -it --rm lucazof/libra
           </div>
           <p className="text-xs text-zinc-400 italic">Requer Docker instalado.</p>
         </div>
