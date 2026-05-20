@@ -1,7 +1,7 @@
 export function Documentation() {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-20 text-center">
-      <h1 className="text-4xl font-extrabold mb-6">Documentação</h1>
+    <main className="max-w-4xl mx-auto px-6 py-12 md:py-20 text-center">
+      <h1 className="text-3xl md:text-4xl font-extrabold mb-6">Documentação</h1>
       <p className="text-lg text-zinc-500 mb-12 max-w-2xl mx-auto">
         Aprenda tudo sobre a sintaxe, bibliotecas padrão e como contribuir para a linguagem Libra.
       </p>

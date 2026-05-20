@@ -1,7 +1,7 @@
 export function About() {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-20">
-      <h1 className="text-4xl font-extrabold mb-8 text-zinc-900">Sobre a Libra</h1>
+    <main className="max-w-4xl mx-auto px-6 py-12 md:py-20">
+      <h1 className="text-3xl md:text-4xl font-extrabold mb-8 text-zinc-900 text-center md:text-left">Sobre a Libra</h1>
       
       <section className="prose prose-zinc prose-lg max-w-none text-zinc-600 leading-relaxed space-y-6">
         <p>

@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@layer utilities {
+  /* Minimalist Scrollbar */
+  .scrollbar-minimalist::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+
+  .scrollbar-minimalist::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-minimalist::-webkit-scrollbar-thumb {
+    background: #3f3f46; /* zinc-700 */
+    border-radius: 10px;
+  }
+
+  .scrollbar-minimalist::-webkit-scrollbar-thumb:hover {
+    background: #10b981; /* emerald-500 */
+  }
+}

@@ -1,7 +1,7 @@
 export function Blog() {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-40 text-center">
-      <h1 className="text-4xl font-extrabold mb-6">Blog da Libra</h1>
+    <main className="max-w-4xl mx-auto px-6 py-12 md:py-20 text-center">
+      <h1 className="text-3xl md:text-4xl font-extrabold mb-6">Blog da Libra</h1>
       <p className="text-xl text-zinc-500 mb-8">
         Novidades, tutoriais e artigos técnicos sobre a linguagem Libra.
       </p>
