@@ -17,7 +17,7 @@ export function Download() {
               Este script detecta seu shell automaticamente e configura o alias <code className="bg-zinc-100 px-1.5 py-0.5 rounded text-emerald-600 font-mono">libra</code> no seu perfil.
             </p>
             <div className="bg-zinc-900 p-5 rounded-2xl font-mono text-sm text-emerald-400 mb-4 overflow-x-auto scrollbar-minimalist pb-4 whitespace-nowrap md:whitespace-normal">
-              curl -sSL https://linguagemlibra.site/instalar-docker.sh | bash
+              curl -sSL https://linguagem-libra.github.io/instalar-docker.sh | bash
             </div>
             <p className="text-sm text-zinc-400">
               Após rodar, basta reiniciar o terminal ou rodar <code className="bg-zinc-50 px-1 rounded border">source ~/.bashrc</code> (ou seu respectivo arquivo de shell).

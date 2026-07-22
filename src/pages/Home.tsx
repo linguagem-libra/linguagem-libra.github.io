@@ -39,9 +39,9 @@ export function Home() {
               <Link to="/baixar" className="bg-emerald-500 text-white px-8 py-4 rounded-2xl text-lg font-bold hover:bg-emerald-600 transition-all shadow-lg shadow-emerald-100 flex items-center justify-center gap-2">
                 Começar Agora
               </Link>
-              <a href="https://testar.linguagemlibra.site" target="_blank" className="bg-zinc-50 text-zinc-600 px-8 py-4 rounded-2xl text-lg font-bold hover:bg-zinc-100 transition-all border border-zinc-200 flex items-center justify-center gap-2">
+              <Link to="/testar" className="bg-zinc-50 text-zinc-600 px-8 py-4 rounded-2xl text-lg font-bold hover:bg-zinc-100 transition-all border border-zinc-200 flex items-center justify-center gap-2">
                 Testar no Navegador
-              </a>
+              </Link>
             </div>
           </div>
           

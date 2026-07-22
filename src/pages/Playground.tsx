@@ -8,10 +8,10 @@ import { executarLibra } from '../lib/libra';
 import { libra } from '../lib/libra-lang';
 import { EXEMPLOS, type ExemploLibra } from '../lib/exemplos';
 
-// Documentação da linguagem: https://linguagemlibra.site/documentacao
+// Documentação da linguagem: https://linguagem-libra.github.io/documentacao
 const DOCS_URL = '/documentacao';
 
-const EXEMPLO_INICIAL = `// Documentação: https://linguagemlibra.site/documentacao
+const EXEMPLO_INICIAL = `// Documentação: https://linguagem-libra.github.io/documentacao
 exibir("Olá, Mundo!")
 `;
 

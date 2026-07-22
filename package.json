@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://linguagem-libra.github.io/libra-website",
+  "homepage": "https://linguagem-libra.github.io",
   "scripts": {
     "dev": "vite",
     "build:wasm": "node scripts/build-wasm.mjs",
