@@ -5,6 +5,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
+    { to: '/testar', label: 'Testar' },
     { to: '/baixar', label: 'Baixar' },
     { to: '/documentacao', label: 'Documentação' },
     { to: '/comunidade', label: 'Comunidade' },
@@ -34,13 +35,12 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-4">
-          <a 
-            href="https://testar.linguagemlibra.site" 
-            target="_blank"
+          <Link
+            to="/testar"
             className="hidden sm:block bg-emerald-500 text-white px-5 py-2.5 rounded-2xl text-sm font-bold hover:bg-emerald-600 transition-all shadow-md shadow-emerald-200 active:scale-95"
           >
             Testar agora
-          </a>
+          </Link>
 
           {/* Mobile Menu Button */}
           <button 
@@ -74,14 +74,13 @@ export function Navbar() {
             ))}
           </div>
           <div className="pt-4 border-t border-zinc-100">
-            <a 
-              href="https://testar.linguagemlibra.site" 
-              target="_blank"
+            <Link
+              to="/testar"
               className="block w-full text-center bg-emerald-500 text-white px-5 py-3 rounded-2xl text-base font-bold hover:bg-emerald-600 transition-all"
               onClick={() => setIsOpen(false)}
             >
               Testar agora no navegador
-            </a>
+            </Link>
           </div>
         </div>
       )}

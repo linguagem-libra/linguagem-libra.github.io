@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Artefatos do interpretador WASM (gerados por `npm run build:wasm`)
+public/libra-wasm
+.wasm-publish
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
